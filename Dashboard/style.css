@@ -1,0 +1,169 @@
+  .header{
+    display: block;
+    padding: 6px;
+    width:170;  
+    height: 100%;
+    display: flex;                   /*imp for flex align*/
+    justify-content:space-between;
+    align-items: center;
+    position:fixed;
+   
+    
+  }
+  
+  html{
+      overflow-x: hidden;
+  }
+  body{
+      overflow-x: hidden;
+  }
+  
+  
+  .navbar-ul{
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 27;
+  }
+  
+  
+  .navbar-links:link, .navbar-links:visited{
+      text-decoration: none;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:black;
+     
+  
+  }
+  
+  .navbar-links:hover{
+      
+      color:purple;
+      padding: 2px;
+      border-radius: 5px;
+      max-width: 100%;
+  }
+  
+  .mobile-nav-icon{
+      width:30px;
+      height: 30px;
+  }
+  
+  .icon-div{
+      display: none;
+  }
+  
+  
+  /*this will only display menu and not cros*/
+  /* .mobile-nav-icon[name="close-outline"]{
+      display: none;
+  }
+  
+  .navbar-links{
+    font-size: 15px;
+    
+  }
+  
+  .menutxt{
+    font-size: 20px;
+    font-weight: bold;
+  
+  } */
+  
+
+ 
+  
+  /* @media only screen and (max-width:980px){ */
+
+  
+    /* .maindiv{
+      background-color:#454545;
+      height: 50;
+      width: 100%;
+      
+    }
+  
+    .inputt{
+      height: 25;
+      width: 250;
+      padding: 10;
+      float:right;
+      margin: 10;
+    } */
+  
+    /* .headerr{
+      padding: 6px;
+      width:100%;  
+      height: 300;
+      display: flex;                   
+      justify-content:space-between;
+      align-items: center;
+      position:fixed;
+      top:0;
+  
+    }
+       */
+    /*this will display the nav-icon*/
+    /* .icon-div{
+      display: block;
+      transition: all 2s;
+      padding: 5;
+      
+    } */
+  
+    /*this will invisible the menu*/
+  /* .navbarr{
+       display:none;
+      height:100%;
+      width:150; 
+      position: absolute;
+      background-image: linear-gradient(#FFA559,#FFE6C7);
+      display: flex; 
+      top:0; */
+      /* left:0;                   fill the screen completely */
+      /* justify-content: center; */
+      
+       /*transistion*/
+      /* transform: translateX(100%);
+      transition: none;
+      opacity: 0;
+     
+    }
+  
+    .navbar-links:hover{
+      background-color: brown;
+      width: 100%;
+      color:white;
+      padding: 8;
+     }
+      */
+    /*parent of list elements so rather than navbar ,do it here*/
+    /* .navbar-ul{
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    .mobile-nav-icon:hover{
+      color:white;
+      background-color: brown;
+    } */
+    
+    /* if in header the ifactive class is there than show this part else dont show*/
+    /* .ifactive .navbarr{
+      transform: translateX(0);
+      transition:all 0.5s linear;
+      visibility: visible;
+      pointer-events: auto;
+      opacity: 1;
+    } */
+  
+    /*to show cross button and remove hamburger if ifactive class is there*/
+    /* .ifactive .navbarr .mobile-nav-icon[name = "close-outline"]{
+      display:block;
+    }
+  
+    .ifactive .navbarr .mobile-nav-icon[name= "menu-outline"]{
+      display: none;
+    }
+   
+  
+  } */

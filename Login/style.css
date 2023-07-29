@@ -1,0 +1,123 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp4803006.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 22;
+} 
+
+
+
+.login-div{
+  width: 500;
+  height: 400;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120;
+  align-items: center;
+  background-color: rgb(237, 240, 244, 0.6);
+  /* box-shadow: 5px 5px 5px rgb(123, 121, 121); */
+  box-shadow: 8px 8px 15px rgb(128, 128, 128);
+}
+
+.signup{
+   background: none;
+   border: white;
+   color:blue;
+}
+
+.input{
+  width: 300;
+  padding: 10;
+  
+  border-radius: 5px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button{
+   width: 200;
+   padding: 10;
+   background-color: rgb(95, 95, 241);
+   border: none;
+   border-radius: 10px;
+}
+
+.button:hover{
+  background-color: blue;
+}
+
+.error{
+  font-size: 15;
+  color:red;
+  text-align: center;
+}
+
+.para{
+  text-align: center;
+ 
+}
+
+@media only screen and (min-height: 950px){
+  body{
+    background-image: url("https://wallpapercave.com/wp/wp4803006.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22;
+  } 
+  
+  .login-div{
+    width: 500;
+    height: 400;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70;
+    align-items: center;
+    background-color: rgb(237, 240, 244, 0.6);
+    /* box-shadow: 5px 5px 5px rgb(123, 121, 121); */
+    box-shadow: 8px 8px 15px rgb(128, 128, 128);
+  }
+  
+  .signup{
+     background: none;
+     border: white;
+     color:blue;
+  }
+  
+  .input{
+    width: 400;
+    padding: 10;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button{
+     width: 200;
+     padding: 10;
+     background-color: rgb(95, 95, 241);
+     border: none;
+     border-radius: 10px;
+  }
+  
+  .error{
+    font-size: 15;
+    color:red;
+    text-align: center;
+  }
+  
+  .para{
+    text-align: center;
+   
+  }
+  
+}
+
+ 
+
+ 
