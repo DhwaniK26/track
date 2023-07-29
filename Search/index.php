@@ -41,21 +41,6 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
-   <?php
-
-   if (isset($_POST['submit'])) {
-      echo "hello";
-      $conn = new mysqli('localhost', 'root', '', 'tracking');
-      $sql = 'INSERT INTO searchloc VALUES("' . $_SESSION['username'] . '", "' . $_REQUEST['search'] . '")';
-      if ($conn->query($sql) === TRUE) {
-         echo "okk";
-      } else {
-         echo "not okk";
-      }
-      $conn->close();
-   }
-   ?>
-   </div>
 
    <div class="p-2" style="background-color:#454545;">
       <form name="form" id="form" method="POST">
