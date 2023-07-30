@@ -34,7 +34,42 @@ if (!isset($_SESSION['username'])) {
 
       .para {
          color: orange;
+      }
 
+      .mymap{
+         height: 580px;
+         width: 100%;
+      }
+      .myinput{
+         width: 300px;
+      }
+      .mybtn{
+            background-color:#FFA559; 
+            width:100px; 
+            border:1px solid #FF6000; 
+            border-radius: 5px;
+         }
+
+      @media only screen and (min-height: 950px){
+
+         .mymap{
+            height: 950px;
+            width: 100%;
+         }
+
+         .myinput{
+            height: 50px;
+            width: 350px;
+            margin: 20;
+         }
+
+         .mybtn{
+            background-color:#FFA559; 
+            width:110px; 
+            height: 40px;
+            border:1px solid #FF6000; 
+            border-radius: 5px;
+         }
       }
    </style>
 
@@ -44,14 +79,14 @@ if (!isset($_SESSION['username'])) {
 
    <div class="p-2" style="background-color:#454545;">
       <form name="form" id="form" method="POST">
-         <input type="text" id="search" name="search" style="width:300px" placeholder="City name, Country" />
-         <input type="submit" name="submit" value="submit" id="submit" style="background-color:#FFA559; width:100px; border:1px solid #FF6000; border-radius: 5px;" />
+         <input type="text" id="search" name="search" class="myinput" placeholder="City name, Country" />
+         <input type="submit" name="submit" value="submit" id="submit" class="mybtn" />
          <button onClick="window.location.reload();">Refresh Page</button>
       </form>
    </div>
 
 
-   <div id="map" style="height: 570px; width: 100%">
+   <div id="map" class="mymap">
 
    </div>
    <br>
@@ -88,7 +123,6 @@ if (!isset($_SESSION['username'])) {
             }
            
          }
-
          xmlHttp.open("GET", "script.php?search=" + document.form.search.value , true);
          xmlHttp.send();
       }
